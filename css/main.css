@@ -60,6 +60,8 @@ input[type=text] {
       background-color: white;
     color: #616161;
     height: 400px;
+    width: 960px;
+    margin: 0 auto
     position: sticky;
    
 }
@@ -126,4 +128,96 @@ i {
 	padding: 10px;
 }
 
+/*media query*/
 
+@media (max-width: 550px) {
+
+    .flex-container { 
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    input[type=text] {
+    float: right;
+    padding: 3px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 12px;
+    box-shadow: 4px 4px 3px #888888;
+    background-color: #d6d6c2;
+    color: #b8b894;
+}
+
+
+
+    p       {
+    color: #FF6600;
+    font-size: 22px ;
+}
+
+#quote {
+    background-color: #99bbff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+#case {
+    background-color: #FF6600; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.topnav a {
+    display: none;
+
+}
+
+#orange1 {
+    display: initial;
+}
+
+}
+
+@media (max-width: 909px) {
+
+.topnav a {
+    font-size: 12px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-right: 14px;
+
+}
+
+.flex-container { 
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+img {
+    width: 50%;
+}
+
+.item {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 50%;
+
+}
+
+p {
+    font-size: 22px;
+}
